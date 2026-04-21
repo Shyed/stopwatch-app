@@ -1,3 +1,4 @@
+/* Page layout and basic styling */
 body {
   font-family: Arial, sans-serif;
   text-align: center;
@@ -5,10 +6,12 @@ body {
   padding: 2rem;
 }
 
+/* Title spacing */
 h1 {
   margin-bottom: 2rem;
 }
 
+/* Stopwatch display box */
 #display {
   font-size: 3rem;
   font-weight: bold;
@@ -20,6 +23,7 @@ h1 {
   margin-bottom: 2rem;
 }
 
+/* Button base styling */
 .buttons button {
   font-size: 1rem;
   padding: 0.75rem 1.5rem;
@@ -29,16 +33,19 @@ h1 {
   cursor: pointer;
 }
 
+/* Start button (green - white text) */
 #start-btn {
   background-color: #28a745;
   color: white;
 }
 
+/* Stop button (yellow - black text) */
 #stop-btn {
   background-color: #ffc107;
   color: black;
 }
 
+/* Reset button (red - white text) */
 #reset-btn {
   background-color: #dc3545;
   color: white;
